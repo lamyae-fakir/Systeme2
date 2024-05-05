@@ -1,8 +1,8 @@
-# Systeme2 Le code est executable que sur LINUX et non pas Windows .
-Projet de programmation système 2023-2024
+# Projet de programmation système 2023-2024
 Le jeu comporte deux exécutables:
 
-server.py : l'exécutable lancé par le modérateur de jeu. Cet exécutable lance le serveur de chat dans le terminal (reste attaché au terminal). Le modérateur, via cet exécutable:
+# server.py : 
+l'exécutable lancé par le modérateur de jeu. Cet exécutable lance le serveur de chat dans le terminal (reste attaché au terminal). Le modérateur, via cet exécutable:
 
 peut suivre toutes les discussions
 connait tous les secrets
@@ -11,7 +11,8 @@ peut suspendre temporairement ou bannir définitivement un joueur au cours de pa
 vérifie que le programmeur a bien fait son travail (débogage)
 
 
-client.py : l'exécutable lancé par un joueur. Cet exécutable se détache du terminal (double fork) et crée deux nouveaux terminaux, l'un affichant les messages, l'autre permettant de saisir des commandes et des messages. Les commandes commencent par un !, les messages privés commencent par @toto (pour envoyer à toto), ou @toto @titi @tata pour envoyer un message privé à plusieurs destinataires. Lorsque le joueur meurt, toutes les fenêtres et les processus créés pour lui doivent être tués.
+# client.py :
+l'exécutable lancé par un joueur. Cet exécutable se détache du terminal (double fork) et crée deux nouveaux terminaux, l'un affichant les messages, l'autre permettant de saisir des commandes et des messages. Les commandes commencent par un !, les messages privés commencent par @toto (pour envoyer à toto), ou @toto @titi @tata pour envoyer un message privé à plusieurs destinataires. Lorsque le joueur meurt, toutes les fenêtres et les processus créés pour lui doivent être tués.
 
 
 Communications
